@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(5, 5, 254);
+  text-decoration: none;
+  -webkit-animation: titlechange 10s infinite alternate;
+}
+@-webkit-keyframes titlechange {
+  0% {
+    color: rgb(5, 5, 254);
+  }
+  50% {
+    color: rgb(232, 5, 5);
+  }
+  100% {
+    color: rgb(238, 4, 172);
+  }
+}
+.header {
+  background-color: rgb(103, 149, 201);
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.logo {
+  width: 4rem;
+}
+marquee {
+  margin: 1rem 2rem 1rem 2rem;
+}
+.places {
+  display: flex;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  padding: 6% 40% 10% 40%;
+  background-image: url(https://images.livemint.com/img/2022/03/10/600x338/flight_1646939552979_1646939561633.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.sideHead {
+  color: rgb(14, 148, 220);
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+legend {
+  color: rgb(70, 70, 247);
+  font-size: 2rem;
+}
+.block {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid grey;
+  border-radius: 3rem;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: grey;
+}
+.block:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0.5rem 0.5rem 1rem rgba(44, 4, 247, 0.4);
+}
+h5 {
+  color: rgb(179, 13, 13);
+}
+.compartment {
+  display: flex;
+  justify-content: space-around;
+  /*background-image: url("https://cdn.pixabay.com/photo/2017/02/21/09/02/clouds-2085112__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background-color: rgb(114, 166, 180);
+  margin: 1rem 0rem;
+}
+#seatA,
+#seatB {
+  height: 60rem;
+  width: 25rem;
+  background-color: rgb(247, 250, 251);
+  margin: 4rem 3rem 1rem 4rem;
+  border-radius: 3rem;
+  padding-top: 8rem;
+}
+.seatRow {
+  display: flex;
+  justify-content: space-around;
+}
+.rowA,
+.rowB,
+.rowC {
+  margin: 0.5rem;
+  background-color: gray;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  border: 0px solid gray;
+}
+.rowA:hover,
+.rowB:hover,
+.rowC:hover {
+  box-shadow: 1rem 1rem 1rem rgb(62, 61, 61);
+}
+.note {
+  text-align: center;
+  color: red;
+}
+.book {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.proceed {
+  padding: 1rem 2rem;
+}

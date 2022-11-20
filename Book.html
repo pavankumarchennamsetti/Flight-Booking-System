@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Available Flights</title>
+    <link href="Home.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="header" style="margin-bottom: 1rem">
+      <a href="index.html" class="title"
+        ><b><em>Flight Booking System</em></b></a
+      >
+      <img
+        class="logo"
+        src="https://st2.depositphotos.com/2498595/5662/v/600/depositphotos_56620295-stock-illustration-airplane-up-icon.jpg"
+        alt="image"
+      />
+    </div>
+    <h2 class="sideHead">List of Available Flights</h2>
+    <hr />
+    <div id="area"></div>
+    <script src="database.js"></script>
+  </body>
+</html>
+
+<!--<script>
+  const flights = [
+    {
+      from: "Hyderabad",
+      to: "Chennai",
+      fare: "Rs. 5000/-",
+      time: "06:30",
+      travelTime: "1 hour 30 min",
+    },
+    {
+      from: "Hyderabad",
+      to: "Chennai",
+      fare: "Rs. 4000/-",
+      time: "08:20",
+      travelTime: "1 hour 55 min",
+    },
+    {
+      from: "Hyderabad",
+      to: "Chennai",
+      fare: "Rs. 7000/-",
+      time: "11:05",
+      travelTime: "1 hour 05 min",
+    },
+    {
+      from: "Hyderabad",
+      to: "Chennai",
+      fare: "Rs. 4590/-",
+      time: "14:15",
+      travelTime: "1 hour 40 min",
+    },
+    {
+      from: "Hyderabad",
+      to: "Chennai",
+      fare: "Rs. 6499/-",
+      time: "17:40",
+      travelTime: "1 hour 45 min",
+    },
+  ];
+  var text = "";
+  for (var i = 0; i < 5; i++) {
+    text =
+      text +
+      "<div class='block'>" +
+      "<div class='blockSec'><legend>From:</legend><h5>" +
+      flights[i].from +
+      "</h5></div><div class='blockSec'><legend>To:</legend><h5>" +
+      flights[i].to +
+      "</h5></div><div class='blockSec'><legend>Onboarding Time:</legend><h5>" +
+      flights[i].time +
+      "</h5></div><div class='blockSec'><legend>Travel Time:</legend><h5>" +
+      flights[i].travelTime +
+      "</h5></div><div class='blockSec'><legend>Ticket Price:</legend><h5>" +
+      flights[i].fare +
+      "</h5></div>" +
+      "<div style='padding-top:1.5rem'><button type='button' onclick='book()' style='padding:0.5rem 1rem' class='btn btn-success'>Book Now</button>" +
+      "</div>" +
+      "</div>";
+  }
+  document.getElementById("area").innerHTML = text;
+  function book() {
+    window.location.href = "seat.html";
+  }
+</script>-->
